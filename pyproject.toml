@@ -1,0 +1,13 @@
+[project]
+name = "worldquant-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph>=1.0.0,<2.0.0",
+    "loguru>=0.7.3",
+    "pydantic>=2.12.4",
+    "requests>=2.32.5",
+    "tenacity>=9.1.2",
+]
